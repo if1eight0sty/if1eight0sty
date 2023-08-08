@@ -1,5 +1,9 @@
 ### Hi there 👋
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=FFFFFF&background=301B5D00&vCenter=true&width=435&lines=I+am+Roshan+Aryan+Majhi!">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=000000&background=301B5D00&vCenter=true&width=435&lines=I+am+Roshan+Aryan+Majhi!">
+  <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
+</picture>
 <!--
 **if1eight0sty/if1eight0sty** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
