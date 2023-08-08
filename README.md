@@ -9,7 +9,7 @@
 </h1>
 <!-- <h1 align="center">Hi 👋, I'm Roshan Aryan Majhi</h1> -->
 <h4>A passionate software developer with expertise in building web applications using the MERN stack. I have a strong foundation in Python, Java, and C#, which allows me to work across a wide range of technologies and projects.</h4>
-<img align="right" alt="Coding" width="400" height="300" src="https://steamuserimages-a.akamaihd.net/ugc/1631947648964785474/81CBA15178466DD47195A239232202E78987B714/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">
+<img align="right" alt="Coding" width="380" height="300" src="https://steamuserimages-a.akamaihd.net/ugc/1631947648964785474/81CBA15178466DD47195A239232202E78987B714/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">
 
 
 - 🔭 I’m currently working on **TapShare & Desktop App**
