@@ -8,7 +8,7 @@
 </picture>
 </h1>
 <!-- <h1 align="center">Hi 👋, I'm Roshan Aryan Majhi</h1> -->
-<h3>A passionate software developer with expertise in building web applications using the MERN stack. I have a strong foundation in Python, Java, and C#, which allows me to work across a wide range of technologies and projects.</h3>
+<h4>A passionate software developer with expertise in building web applications using the MERN stack. I have a strong foundation in Python, Java, and C#, which allows me to work across a wide range of technologies and projects.</h4>
 
 
 - 🔭 I’m currently working on **TapShare & Desktop App**
