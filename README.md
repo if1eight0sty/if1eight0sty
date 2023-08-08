@@ -18,7 +18,7 @@
 
 - 👯 I’m looking to collaborate on **Next, Svelte**
 
-- 🤝 I’m looking for help with **Node, Springboot, Next, Svelte, GraphQl**
+- 🤝 I’m looking for help with **Node, Springboot, Next, Svelte**
 
 - 💬 Ask me about **React, Next, Node, Spring, Electron**
 
