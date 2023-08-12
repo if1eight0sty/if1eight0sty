@@ -27,9 +27,9 @@
 - ⚡ Fun fact **I code when I'm bored.**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/62550493e3fce1412bd6a692de4fbf7d084f8d94/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/62550493e3fce1412bd6a692de4fbf7d084f8d94/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/62550493e3fce1412bd6a692de4fbf7d084f8d94/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/efccf8a16b2e99048cd13471cb57421b847f3833/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/efccf8a16b2e99048cd13471cb57421b847f3833/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/efccf8a16b2e99048cd13471cb57421b847f3833/github-contribution-grid-snake.svg">
 </picture>
 
 <h3 align="left">Languages and Tools:</h3>
