@@ -1,14 +1,24 @@
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=if1eight0sty&label=Profile%20views&color=0e75b6&style=flat" alt="if1eight0sty" /> </p>
-<h3>Hi there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a></h3>
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=if1eight0sty&label=Profile%20views&color=0e75b6&style=flat" alt="if1eight0sty" />
+</p>
+
+<h3>
+  Hi there 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+</h3>
+
 <h1>
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=FFFFFF&background=301B5D00&vCenter=true&width=435&lines=I'm+Roshan+Aryan+Majhi!">
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=000000&background=301B5D00&vCenter=true&width=435&lines=I'm+Roshan+Aryan+Majhi!">
-  <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
-</picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=FFFFFF&background=301B5D00&vCenter=true&width=435&lines=I'm+Roshan+Aryan+Majhi!">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=000000&background=301B5D00&vCenter=true&width=435&lines=I'm+Roshan+Aryan+Majhi!">
+    <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
+  </picture>
 </h1>
-<!-- <h1 align="center">Hi 👋, I'm Roshan Aryan Majhi</h1> -->
-<h4>A passionate software developer with expertise in building web applications using the MERN stack. I have a strong foundation in Python, Java, and C#, which allows me to work across a wide range of technologies and projects.</h4>
+
+<h4>
+  A passionate software developer with expertise in building web applications using the MERN stack. 
+  I have a strong foundation in Python, Java, and C#, which allows me to work across a wide range of technologies and projects.
+</h4>
 <img align="right" alt="Coding" width="380" height="300" src="https://steamuserimages-a.akamaihd.net/ugc/1631947648964785474/81CBA15178466DD47195A239232202E78987B714/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">
 
 
@@ -25,6 +35,8 @@
 - 📫 How to reach me **ma18yan@gmail.com**
 
 - ⚡ Fun fact **😪😪😪**
+
+- <p>✨✨✨✨✨✨</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/efccf8a16b2e99048cd13471cb57421b847f3833/github-contribution-grid-snake-dark.svg">
