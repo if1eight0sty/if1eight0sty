@@ -14,16 +14,17 @@
     <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
   </picture>
 </h1>
-
+<!--
 <h4>
   A passionate software developer with expertise in building web applications using the MERN stack. 
   I have a strong foundation in Python, Java, and C#, which allows me to work across a wide range of technologies and projects.
 </h4>
+ -->
 <img align="right" alt="Coding" width="380" height="300" src="https://steamuserimages-a.akamaihd.net/ugc/1631947648964785474/81CBA15178466DD47195A239232202E78987B714/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">
 
 
 - 🔭 I’m currently working on **TapShare & Desktop App**
-
+<!--
 - 🌱 I’m currently learning **Next, Springboot, Svelte**
 
 - 👯 I’m looking to collaborate on **Next, Svelte**
@@ -31,7 +32,7 @@
 - 🤝 I’m looking for help with **Node, Springboot, Next, Svelte**
 
 - 💬 Ask me about **React, Next, Node, Spring, Electron**
-
+ -->
 - 📫 How to reach me **ma18yan@gmail.com**
 
 - ⚡ Fun fact **😪😪😪**
@@ -39,9 +40,9 @@
 - <p>✨✨✨✨✨✨</p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/efccf8a16b2e99048cd13471cb57421b847f3833/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/efccf8a16b2e99048cd13471cb57421b847f3833/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/efccf8a16b2e99048cd13471cb57421b847f3833/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/ae47483f00338416646bd2ecaa4753c5d3a6fa37/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/ae47483f00338416646bd2ecaa4753c5d3a6fa37/github-contribution-grid-snake-dark.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/ae47483f00338416646bd2ecaa4753c5d3a6fa37/github-contribution-grid-snake.svg">
 </picture>
 <!--
 <h3 align="left">Languages and Tools:</h3>
