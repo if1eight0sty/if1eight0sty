@@ -9,8 +9,8 @@
 
 <h1>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=FFFFFF&background=301B5D00&vCenter=true&width=435&lines=I'm+Roshan+Aryan+Majhi!">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=000000&background=301B5D00&vCenter=true&width=435&lines=I'm+Roshan+Aryan+Majhi!">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=FFFFFF&background=301B5D00&vCenter=true&width=435&lines=I'm+Roshan+Aryan+Majhi👻!">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=000000&background=301B5D00&vCenter=true&width=435&lines=I'm+Roshan+Aryan+Majhi👻!">
     <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
   </picture>
 </h1>
@@ -22,7 +22,7 @@
  -->
 <img align="right" alt="Coding" width="380" height="300" src="https://steamuserimages-a.akamaihd.net/ugc/1631947648964785474/81CBA15178466DD47195A239232202E78987B714/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">
 
-- 🔭 I’m currently working on **TapShare & A Web App**
+- 🔭 I’m currently working on **Web App**
 - 🌱 I’m currently learning **Next, Springboot, Svelte**
 - 👯 I’m looking to collaborate on **Next, Svelte**
 - 🤝 I’m looking for help with **Node, Springboot, Next, Svelte**
