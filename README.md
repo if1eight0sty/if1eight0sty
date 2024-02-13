@@ -29,7 +29,7 @@
 - 💬 Ask me about **React, Next, Node, Spring, Electron**
 - 📫 How to reach me **ma18yan@gmail.com**
 - ⚡ Fun fact **😪😪😪**
-- <p>✨✨✨</p>
+- ✨✨✨
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/ae47483f00338416646bd2ecaa4753c5d3a6fa37/github-contribution-grid-snake.svg">
