@@ -1,5 +1,6 @@
-<p align="left"> 
+<p align="left" > 
   <img src="https://komarev.com/ghpvc/?username=if1eight0sty&label=Profile%20views&color=0e75b6&style=flat" alt="if1eight0sty" />
+   <img src="https://user-badge.committers.top/nepal/if1eight0sty.svg" alt="if1eight0sty" />
 </p>
 
 <h3>
@@ -14,6 +15,7 @@
     <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
   </picture>
 </h1>
+
 <!--
 <h4>
   A passionate software developer with expertise in building web applications using the MERN stack. 
