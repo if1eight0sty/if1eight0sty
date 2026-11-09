@@ -76,10 +76,12 @@ roshan@if1eight0sty ~ $ tree --sitemap -L 2 --web-links ./roshan-portfolio
   <img alt="contribution snake" src="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=if1eight0sty&bg_color=131313&color=e5e2e1&line=98cbff&point=61dac1&area=true&hide_border=true" alt="activity graph" />
+<img width="100%" src="https://ghchart.rshah.org/98cbff/if1eight0sty" alt="contribution chart" />
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=if1eight0sty&show_icons=true&hide_border=true&bg_color=131313&title_color=98cbff&icon_color=61dac1&text_color=e5e2e1&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=if1eight0sty&layout=compact&hide_border=true&bg_color=131313&title_color=98cbff&text_color=e5e2e1&langs_count=8" alt="Top languages" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=if1eight0sty&theme=github_dark" alt="GitHub stats" />
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=if1eight0sty&theme=github_dark" alt="Top languages by commit" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=if1eight0sty&theme=github_dark" alt="Repositories per language" />
 
 <img src="https://streak-stats.demolab.com?user=if1eight0sty&hide_border=true&background=131313&ring=98cbff&fire=ffb77d&currStreakLabel=61dac1&sideLabels=bec7d4&dates=88919d&currStreakNum=e5e2e1&sideNums=e5e2e1" alt="GitHub streak" />
 
