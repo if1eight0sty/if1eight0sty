@@ -12,8 +12,6 @@
   <img alt="roshanaryanmajhi.com.np boot loader" src="./loader.gif?v=4" />
 </picture>
 
-<sub><i>Boot loader from <a href="https://roshanaryanmajhi.com.np">roshanaryanmajhi.com.np</a></i></sub>
-
 </div>
 
 <!-- neofetch-art:start -->
