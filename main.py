@@ -333,10 +333,11 @@ def build_neofetch_block(avatar: Path | None) -> str:
     )
 
 
-def replace_between(content: str, start: str, end: str, snippet: str) -> str:
+def replace_between(content: str, start: str, end: str, snippet: str) -> str | None:
+    """Swap the block between markers. Returns None when the markers are absent."""
     if start in content and end in content:
         return content[: content.index(start)] + snippet + content[content.index(end) + len(end) :]
-    return snippet + "\n\n" + content
+    return None
 
 
 def update_readme() -> None:
@@ -367,12 +368,12 @@ def update_readme() -> None:
         return
 
     content = path.read_text()
-    content = replace_between(content, GIF_START, GIF_END, snippet)
+    updated = replace_between(content, GIF_START, GIF_END, snippet) or content
     avatar = AVATAR_PATH if AVATAR_PATH.exists() else None
     neofetch = f"{NEOFETCH_START}\n{build_neofetch_block(avatar)}\n{NEOFETCH_END}"
-    content = replace_between(content, NEOFETCH_START, NEOFETCH_END, neofetch)
-    path.write_text(content)
-    print(f"INFO: {README_PATH} updated (gif + neofetch ascii)")
+    updated = replace_between(updated, NEOFETCH_START, NEOFETCH_END, neofetch) or updated
+    path.write_text(updated)
+    print(f"INFO: {README_PATH} updated (marker blocks only)")
 
 
 if __name__ == "__main__":

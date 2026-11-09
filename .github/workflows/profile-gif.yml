@@ -1,13 +1,9 @@
 name: generate terminal gif
 
 on:
-  schedule:
-    - cron: "0 3 * * *"
+  # Manual only: the profile README now shows loader.gif (recorded from the site),
+  # so there is no need to rebuild the terminal gif on a schedule.
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "main.py"
 
 # Both this workflow and the snake workflow push to main; queue them instead of
 # letting them race (that race is what causes the "fetch first" rejection).

@@ -4,19 +4,17 @@
 
 </div>
 
-<!-- terminal-gif:start -->
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./output.gif" />
-  <source media="(prefers-color-scheme: light)" srcset="./output.gif" />
-  <img alt="roshan@if1eight0sty terminal" src="./output.gif" />
+  <source media="(prefers-color-scheme: dark)" srcset="./loader.gif" />
+  <source media="(prefers-color-scheme: light)" srcset="./loader.gif" />
+  <img alt="roshanaryanmajhi.com.np boot loader" src="./loader.gif" />
 </picture>
 
-<sub><i>Generated with <a href="https://github.com/x0rzavi/github-readme-terminal">x0rzavi/github-readme-terminal</a> on 2026-11-09 23:34 +0545</i></sub>
+<sub><i>Boot loader from <a href="https://roshanaryanmajhi.com.np">roshanaryanmajhi.com.np</a></i></sub>
 
 </div>
-<!-- terminal-gif:end -->
 
 <!-- neofetch-art:start -->
 ```console
