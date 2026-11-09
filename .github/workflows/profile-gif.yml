@@ -9,6 +9,12 @@ on:
     paths:
       - "main.py"
 
+# Both this workflow and the snake workflow push to main; queue them instead of
+# letting them race (that race is what causes the "fetch first" rejection).
+concurrency:
+  group: profile-artifacts
+  cancel-in-progress: false
+
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -16,6 +22,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -43,5 +51,11 @@ jobs:
             echo "no changes"
           else
             git commit -m "chore: regenerate terminal gif"
-            git push origin HEAD:main
+            # The remote may have moved (another workflow, a manual push):
+            # rebase onto it before pushing, then retry once.
+            git pull --rebase origin main
+            git push origin HEAD:main || {
+              git pull --rebase origin main
+              git push origin HEAD:main
+            }
           fi

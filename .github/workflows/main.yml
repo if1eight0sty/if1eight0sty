@@ -7,6 +7,11 @@ on:
   push:
     branches: [main]
 
+# Shares a queue with the gif workflow: both write to the repo.
+concurrency:
+  group: profile-artifacts
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
