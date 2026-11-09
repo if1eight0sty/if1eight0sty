@@ -7,9 +7,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./loader.gif?v=3" />
-  <source media="(prefers-color-scheme: light)" srcset="./loader.gif?v=3" />
-  <img alt="roshanaryanmajhi.com.np boot loader" src="./loader.gif?v=3" />
+  <source media="(prefers-color-scheme: dark)" srcset="./loader.gif?v=4" />
+  <source media="(prefers-color-scheme: light)" srcset="./loader.gif?v=4" />
+  <img alt="roshanaryanmajhi.com.np boot loader" src="./loader.gif?v=4" />
 </picture>
 
 <sub><i>Boot loader from <a href="https://roshanaryanmajhi.com.np">roshanaryanmajhi.com.np</a></i></sub>

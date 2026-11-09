@@ -30,7 +30,7 @@ fi
 # Trim the pre-animation dark frames and the fade into the site (END_FRAME
 # must stop before the overlay lifts, or the page shows through), then encode.
 START_FRAME="${START_FRAME:-6}"
-END_FRAME="${END_FRAME:-248}"
+END_FRAME="${END_FRAME:-322}"
 
 echo "→ encoding $OUT (frames $START_FRAME..$END_FRAME of $count)"
 # trim (not -start_number/-frames:v) so the input frame numbers are exact
