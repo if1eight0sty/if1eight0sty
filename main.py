@@ -27,15 +27,18 @@ for redistribution if you commit it.
 """
 
 import urllib.request
+import os
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import gifos
+from gifos.gifos import font_path as _gifos_font_path
 
 # --- fonts -----------------------------------------------------------------
-# Bitmap body font: bundled with gifos, no file needed.
-FONT_BODY = ""  # empty -> gifos default (gohufont-uni-14)
+# Bitmap body font: bundled with gifos, so no file to ship.
+_BUNDLED_FONT = _gifos_font_path / "gohufont-uni-14.pil"
+FONT_BODY = str(_BUNDLED_FONT) if _BUNDLED_FONT.exists() else ""
 # Chunky display font for the splash wordmark (optional, e.g. vtks-blocketo).
 DISPLAY_FONT = "./fonts/vtks-blocketo.regular.ttf"
 # Font used for the ASCII-art panel (optional).
@@ -91,10 +94,10 @@ def boot_sequence(t: "gifos.Terminal") -> None:
         t.num_rows,
     )
 
-    for i in range(0, 65653, 7168):  # 64K memory test
+    for i in range(0, 65653, 16384):  # 64K memory test (coarse: keeps the GIF short)
         t.delete_row(7)
         # slow down early on so the numbers are readable, then let it rip
-        t.gen_text(f"Memory Test: {i}", 7, count=2 if i < 30000 else 1, contin=True)
+        t.gen_text(f"Memory Test: {i}", 7, count=1, contin=True)
     t.delete_row(7)
     t.gen_text("Memory Test: 64KB OK", 7, count=10, contin=True)
     t.gen_text("", 11, count=10, contin=True)
@@ -161,22 +164,23 @@ def fetch_avatar() -> Path | None:
 
 def paste_avatar(t: "gifos.Terminal", path: Path) -> bool:
     """Paste the avatar bitmap. gifos exposes paste_image(); older builds pasteImage()."""
-    for method in ("paste_image", "pasteImage"):
-        fn = getattr(t, method, None)
-        if fn is None:
-            continue
-        try:
-            if method == "paste_image":
-                fn(str(path), 2, 1, AVATAR_SIZE)
-            else:  # legacy camelCase signature used sizeMulti=
-                fn(str(path), 2, 1, AVATAR_SIZE)
+    fn = getattr(t, "paste_image", None) or getattr(t, "pasteImage", None)
+    if fn is None:
+        print("WARNING: gifos build has no image paste API")
+        return False
+    try:
+        fn(str(path), 2, 1, AVATAR_SIZE)
+        return True
+    except TypeError:
+        try:  # legacy camelCase signature
+            fn(str(path), row_num=2, col_num=1, sizeMulti=AVATAR_SIZE)
             return True
-        except TypeError:
-            continue
         except Exception as exc:
-            print(f"WARNING: {method} failed ({exc})")
+            print(f"WARNING: legacy paste API failed ({exc})")
             return False
-    return False
+    except Exception as exc:
+        print(f"WARNING: paste failed ({exc})")
+        return False
 
 
 def fetch(t: "gifos.Terminal") -> None:
@@ -219,22 +223,34 @@ def profile_details(t: "gifos.Terminal") -> None:
     """
     t.gen_text(details, 2, 33, count=5, contin=True)
 
-    # Live stats are optional; skip gracefully without a token.
+    # Live stats are optional: gifos hard-fails without a token, so gate on it.
+    if os.environ.get("GITHUB_TOKEN"):
+        _render_stats(t)
+
+
+
+def _render_stats(t: "gifos.Terminal") -> None:
+    """Live GitHub stats. Requires GITHUB_TOKEN; silently skipped otherwise."""
     try:
         stats = gifos.utils.fetch_github_stats(HANDLE)
         t.gen_text(
-            f"{C_SECONDARY}Top Languages: {C_TERTIARY}{', '.join(l[0] for l in stats.languages_sorted[:5])}{C_RESET}",
+            f"{C_SECONDARY}Top Languages: {C_TERTIARY}"
+            f"{', '.join(lang[0] for lang in stats.languages_sorted[:5])}{C_RESET}",
             16,
             33,
             count=5,
             contin=True,
         )
-    except Exception:
-        pass
+    except BaseException as exc:  # gifos raises non-Exception errors here
+        print(f"WARNING: stats skipped ({exc})")
 
 
 def main() -> None:
-    t = gifos.Terminal(750, 500, 15, 15, FONT_BODY, 15)
+    # Fall back to the package default if the bundled font is unavailable.
+    terminal_args = (750, 500, 15, 15) if not FONT_BODY else (750, 500, 15, 15, FONT_BODY, 15)
+    t = gifos.Terminal(*terminal_args)
+    # gifos defaults the prompt to "x0rzavi@gifos"; set ours explicitly.
+    t.set_prompt("\x1b[0;91mroshan\x1b[0m@\x1b[0;93mif1eight0sty ~> \x1b[0m")
 
     boot_sequence(t)
     splash(t)
@@ -248,7 +264,7 @@ def main() -> None:
         t.curr_row,
         contin=True,
     )
-    t.gen_text("", t.curr_row, count=120, contin=True)
+    t.gen_text("", t.curr_row, count=45, contin=True)
 
     t.gen_gif()
     print("INFO: output.gif written")
