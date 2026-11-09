@@ -34,6 +34,7 @@ from zoneinfo import ZoneInfo
 
 import gifos
 from gifos.gifos import font_path as _gifos_font_path
+from PIL import Image, ImageOps
 
 # --- fonts -----------------------------------------------------------------
 # Bitmap body font: bundled with gifos, so no file to ship.
@@ -276,6 +277,68 @@ GIF_START = "<!-- terminal-gif:start -->"
 GIF_END = "<!-- terminal-gif:end -->"
 
 
+NEOFETCH_START = "<!-- neofetch-art:start -->"
+NEOFETCH_END = "<!-- neofetch-art:end -->"
+
+NEOFETCH_INFO = [
+    f"{HOST}",
+    "--------------------------",
+    "OS:       if1eight0sty 24.04 LTS",
+    "Role:     Software Engineer @ Pexus Tech",
+    "Org:      ING Consulting (Innovate Nepal Group)",
+    "Editor:   IFIEIGHT0STY_IDE",
+    "Stack:    React · TS · Node · PG",
+    "Location: Kathmandu, Nepal (UTC+5:45)",
+    "Also:     External Project Supervisor",
+    "Status:   open to software engineer roles",
+]
+
+
+def avatar_ascii(path: Path, width: int = 30, gamma: float = 0.75) -> list[str]:
+    """Render an image as monochrome ASCII (a code fence cannot hold a real image)."""
+    image = ImageOps.autocontrast(Image.open(path).convert("L"))
+    height = max(8, round(width * image.height / image.width * 0.5))
+    image = image.resize((width, height))
+    pixels = image.load()
+    ramp = " .:-=+*#%@"
+    lines = []
+    for y in range(height):
+        row = "".join(
+            ramp[min(len(ramp) - 1, int((pixels[x, y] / 255) ** gamma * (len(ramp) - 1)))]
+            for x in range(width)
+        )
+        lines.append(row.rstrip())
+    return lines
+
+
+def build_neofetch_block(avatar: Path | None) -> str:
+    art = avatar_ascii(avatar) if avatar else NEOFETCH_ART.strip("\n").split("\n")
+    pad = max(len(line) for line in art) + 3
+    rows = []
+    for i, line in enumerate(art):
+        label = NEOFETCH_INFO[i - 1] if 1 <= i <= len(NEOFETCH_INFO) else ""
+        rows.append((line.ljust(pad) + label).rstrip())
+
+    return (
+        "```console\n"
+        f"{HOST} ~ $ neofetch\n\n"
+        + "\n".join(rows)
+        + f"\n\n{HOST} ~ $ whoami\n"
+        "Roshan Aryan Majhi — also known online as Roshan Majhi / if1eight0sty.\n"
+        "I build durable full-stack systems and developer tooling: React, TanStack,\n"
+        "Nuxt and Laravel, with an allergy to demoware.\n\n"
+        f"{HOST} ~ $ uptime\n"
+        "99.98% — small commits, real users, fast feedback.\n"
+        "```"
+    )
+
+
+def replace_between(content: str, start: str, end: str, snippet: str) -> str:
+    if start in content and end in content:
+        return content[: content.index(start)] + snippet + content[content.index(end) + len(end) :]
+    return snippet + "\n\n" + content
+
+
 def update_readme() -> None:
     """Inject the GIF into README.md between the markers, without touching the rest.
 
@@ -304,14 +367,12 @@ def update_readme() -> None:
         return
 
     content = path.read_text()
-    if GIF_START in content and GIF_END in content:
-        before = content[: content.index(GIF_START)]
-        after = content[content.index(GIF_END) + len(GIF_END) :]
-        path.write_text(before + snippet + after)
-        print(f"INFO: {README_PATH} updated between markers")
-    else:
-        path.write_text(snippet + "\n\n" + content)
-        print(f"INFO: {README_PATH} snippet inserted at top (markers were missing)")
+    content = replace_between(content, GIF_START, GIF_END, snippet)
+    avatar = AVATAR_PATH if AVATAR_PATH.exists() else None
+    neofetch = f"{NEOFETCH_START}\n{build_neofetch_block(avatar)}\n{NEOFETCH_END}"
+    content = replace_between(content, NEOFETCH_START, NEOFETCH_END, neofetch)
+    path.write_text(content)
+    print(f"INFO: {README_PATH} updated (gif + neofetch ascii)")
 
 
 if __name__ == "__main__":
