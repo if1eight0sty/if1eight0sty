@@ -1,0 +1,47 @@
+name: generate terminal gif
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "main.py"
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install github-readme-terminal
+        run: python -m pip install --upgrade github-readme-terminal
+
+      - name: Render output.gif and update README
+        env:
+          # Optional: enables live GitHub stats in the fetch panel.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIFOS_GENERAL_USER_NAME: roshan@if1eight0sty
+        run: python main.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output.gif README.md
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: regenerate terminal gif"
+            git push origin HEAD:main
+          fi
