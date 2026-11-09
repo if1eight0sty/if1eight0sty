@@ -35,12 +35,12 @@ roshan@if1eight0sty ~ $ neofetch
              :==.
 
 roshan@if1eight0sty ~ $ whoami
-Roshan Aryan Majhi — also known online as Roshan Majhi / if1eight0sty.
+Roshan Aryan Majhi - also known online as Roshan Majhi / if1eight0sty.
 I build durable full-stack systems and developer tooling: React, TanStack,
 Nuxt and Laravel, with an allergy to demoware.
 
 roshan@if1eight0sty ~ $ uptime
-99.98% — small commits, real users, fast feedback.
+99.98% - small commits, real users, fast feedback.
 ```
 <!-- neofetch-art:end -->
 
@@ -102,12 +102,12 @@ roshan@if1eight0sty ~ $ tree --sitemap -L 2 --web-links ./roshan-portfolio
 <img src="https://streak-stats.demolab.com?user=if1eight0sty&hide_border=true&background=131313&ring=98cbff&fire=ffb77d&currStreakLabel=61dac1&sideLabels=bec7d4&dates=88919d&currStreakNum=e5e2e1&sideNums=e5e2e1" alt="GitHub streak" />
 
 </div>
-
-`4 directories, 10 anchor nodes, 0 dead references` · `200 OK HTTP/3` · `✓ build: passed`
+    
+  `4 directories, 10 anchor nodes, 0 dead references` · `200 OK HTTP/3` · `✓ build: passed`
 
 <div align="center">
 
-<sub>Every anchor above maps 1:1 to <a href="https://roshanaryanmajhi.com.np">roshanaryanmajhi.com.np</a> · Design systems where each service is replaceable, observable and boringly predictable.</sub>
+<!-- <sub>Every anchor above maps 1:1 to <a href="https://roshanaryanmajhi.com.np">roshanaryanmajhi.com.np</a> · Design systems where each service is replaceable, observable and boringly predictable.</sub> -->
 
 <img src="https://komarev.com/ghpvc/?username=if1eight0sty&label=VISITORS&color=131313&labelColor=98cbff&style=flat-square" alt="Profile views" />
 
