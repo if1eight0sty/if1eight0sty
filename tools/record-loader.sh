@@ -29,14 +29,14 @@ fi
 
 # Trim the pre-animation dark frames and the fade into the site (END_FRAME
 # must stop before the overlay lifts, or the page shows through), then encode.
-START_FRAME="${START_FRAME:-25}"
-END_FRAME="${END_FRAME:-321}"
+START_FRAME="${START_FRAME:-6}"
+END_FRAME="${END_FRAME:-248}"
 
 echo "→ encoding $OUT (frames $START_FRAME..$END_FRAME of $count)"
+# trim (not -start_number/-frames:v) so the input frame numbers are exact
 ffmpeg -y -loglevel error \
-  -framerate 49 -start_number "$START_FRAME" -i "$FRAMES/frame_%04d.png" \
-  -frames:v "$((END_FRAME - START_FRAME))" \
-  -vf "crop=1000:420:50:50,fps=18,scale=820:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=96:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=5" \
+  -framerate 49 -i "$FRAMES/frame_%04d.png" \
+  -vf "trim=start_frame=$START_FRAME:end_frame=$END_FRAME,setpts=PTS-STARTPTS,crop=1000:420:50:50,fps=18,scale=820:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=96:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=5" \
   -loop 0 "$OUT"
 
 ls -lh "$OUT"
