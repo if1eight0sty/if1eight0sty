@@ -1,44 +1,96 @@
-<p align="left" > 
-  <img src="https://komarev.com/ghpvc/?username=if1eight0sty&label=Profile%20views&color=0e75b6&style=flat" alt="if1eight0sty" />
-</p>
+<div align="center">
 
-<h3>
-  Hi there 
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
-</h3>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1200&center=true&vCenter=true&width=720&height=90&color=98CBFF&background=131313&lines=Roshan+Aryan+Majhi;Software+Engineer+%40+Pexus+Tech;React+%C2%B7+TanStack+%C2%B7+Nuxt+%C2%B7+Laravel;Kathmandu%2C+Nepal+%E2%80%94+UTC%2B5%3A45" alt="Roshan Aryan Majhi" />
 
-<!-- <h1>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=FFFFFF&background=301B5D00&vCenter=true&width=435&lines=I'm+Roshan+Aryan+Majhi👻!">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=4500&pause=1000&color=000000&background=301B5D00&vCenter=true&width=435&lines=I'm+Roshan+Aryan+Majhi👻!">
-    <img alt="IMAGE" src="http://LIGHT_IMAGE_URL.png">
-  </picture>
-</h1> -->
+</div>
 
-<!--
-<h4>
-  A passionate software developer with expertise in building web applications using the MERN stack. 
-  I have a strong foundation in Python, Java, and C#, which allows me to work across a wide range of technologies and projects.
-</h4>
- -->
-<!-- <img align="right" alt="Coding" width="380" height="300" src="https://steamuserimages-a.akamaihd.net/ugc/1631947648964785474/81CBA15178466DD47195A239232202E78987B714/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"> -->
+```console
+roshan@if1eight0sty ~ $ neofetch
 
-- 🔭 I’m currently learning... 👻
-- ⚡ Fun fact ✨
+       .__    :    __.       roshan@if1eight0sty
+      /   \   :   /   \      --------------------------
+     .____ \ _v_ / ____.     OS:       if1eight0sty 24.04 LTS
+    /     \ /^^^\ /     \    Role:     Software Engineer @ Pexus Tech
+    \      \\^^^//      /    Org:      ING Consulting (Innovate Nepal Group)
+      .-----X{"}X-----.      Editor:   IFIEIGHT0STY_IDE
+     /     /(o o)\     \     Stack:    React · TS · Node · PG
+    /     /  (")  \     \    Location: Kathmandu, Nepal (UTC+5:45)
+    \     \       /     /    Also:     External Project Supervisor
+           \     /           Status:   open to software engineer roles
+            ---
 
-<!--
+roshan@if1eight0sty ~ $ whoami
+Roshan Aryan Majhi — also known online as Roshan Majhi / if1eight0sty.
+I build durable full-stack systems and developer tooling: React, TanStack,
+Nuxt and Laravel, with an allergy to demoware.
+
+roshan@if1eight0sty ~ $ uptime
+99.98% — small commits, real users, fast feedback.
+```
+
+```console
+roshan@if1eight0sty ~ $ tree --sitemap -L 2 --web-links ./roshan-portfolio
+```
+
+`roshan-portfolio/` `// master root node`
+
+`├─ pages/`  
+`│  ├─` [`about.js`](https://roshanaryanmajhi.com.np) `→` `(Full-Stack Engineer Bio & Architecture Philosophy)`  
+`│  ├─` [`projects.sh`](https://roshanaryanmajhi.com.np/projects) `→` `(Production Showcase & Distributed Systems Registry)`  
+`│  ├─` [`experience.log`](https://roshanaryanmajhi.com.np/git-history) `→` `(Career Timeline, Engineering Management, Staff Impact)`  
+`│  ├─` [`tech_stack.json`](https://roshanaryanmajhi.com.np/tech-stack) `→` `(Full-Stack, Distributed Protocols, TypeScript)`  
+`│  └─` [`contact.json`](https://roshanaryanmajhi.com.np/contact) `→` `(PGP Key, Encrypted Transmission, Direct Booking)`  
+
+`├─ core_deployments/`  
+`│  ├─` [`ing_forms`](https://roshanaryanmajhi.com.np/projects/forms-core) `→` `(Admissions form engine · 20+ field types, AI drafting, Keycloak SSO)` `Nuxt 3 · Vue 3 · Laravel 11 · PostgreSQL · Redis`  
+`│  ├─` [`inghire`](https://roshanaryanmajhi.com.np/projects/hire-core) `→` `(AI recruitment · candidate scoring, staged pipelines)` `React · TanStack Query · shadcn/ui`  
+`│  ├─` [`crm_core`](https://roshanaryanmajhi.com.np/projects/crm-core) `→` `(Metadata-driven CRM · one runtime schema, every view)` `React 19 · TypeScript · dnd-kit`  
+`│  ├─` [`track_core`](https://roshanaryanmajhi.com.np/projects/track-core) `→` `(Traceable delivery · boards, tables, checklists)` `React · TypeScript · Zod · Zustand`  
+`│  └─` [`kavya_core`](https://roshanaryanmajhi.com.np/projects/kavya-core) `→` `(Term report composition · print-ready PDFs)` `React 19 · BlockNote · Recharts · Turborepo`  
+
+`├─ stack.json` `// cat stack.json`  
+`│  ├─` `"focus":` \[ `"full-stack"`, `"developer tooling"`, `"observability"` \],  
+`│  ├─` `"core":` \[ ![React](https://img.shields.io/badge/React-131313?style=flat-square&logo=react&logoColor=98cbff) , ![TypeScript](https://img.shields.io/badge/TypeScript-131313?style=flat-square&logo=typescript&logoColor=98cbff) , ![TanStack](https://img.shields.io/badge/TanStack-131313?style=flat-square&logo=reactquery&logoColor=ffb77d) , ![Node.js](https://img.shields.io/badge/Node.js-131313?style=flat-square&logo=nodedotjs&logoColor=61dac1) , ![Bun](https://img.shields.io/badge/Bun-131313?style=flat-square&logo=bun&logoColor=e5e2e1) , ![Laravel](https://img.shields.io/badge/Laravel-131313?style=flat-square&logo=laravel&logoColor=ff5f57) \],  
+`│  ├─` `"frontend":` \[ ![Next.js](https://img.shields.io/badge/Next.js-131313?style=flat-square&logo=nextdotjs&logoColor=e5e2e1) , ![Nuxt](https://img.shields.io/badge/Nuxt-131313?style=flat-square&logo=nuxt&logoColor=61dac1) , ![Vue](https://img.shields.io/badge/Vue-131313?style=flat-square&logo=vuedotjs&logoColor=61dac1) , ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-131313?style=flat-square&logo=tailwindcss&logoColor=98cbff) , ![Vite](https://img.shields.io/badge/Vite-131313?style=flat-square&logo=vite&logoColor=ffb77d) \],  
+`│  ├─` `"data":` \[ ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-131313?style=flat-square&logo=postgresql&logoColor=98cbff) , ![MySQL](https://img.shields.io/badge/MySQL-131313?style=flat-square&logo=mysql&logoColor=ffb77d) , ![MongoDB](https://img.shields.io/badge/MongoDB-131313?style=flat-square&logo=mongodb&logoColor=61dac1) , ![Redis](https://img.shields.io/badge/Redis-131313?style=flat-square&logo=redis&logoColor=ff5f57) \],  
+`│  ├─` `"infra":` \[ ![Docker](https://img.shields.io/badge/Docker-131313?style=flat-square&logo=docker&logoColor=98cbff) , ![Keycloak](https://img.shields.io/badge/Keycloak-131313?style=flat-square&logo=keycloak&logoColor=98cbff) , ![Turborepo](https://img.shields.io/badge/Turborepo-131313?style=flat-square&logo=turborepo&logoColor=e5e2e1) , ![Nx](https://img.shields.io/badge/Nx-131313?style=flat-square&logo=nx&logoColor=61dac1) \],  
+`│  ├─` `"exploring":` \[ ![Kubernetes](https://img.shields.io/badge/Kubernetes-131313?style=flat-square&logo=kubernetes&logoColor=98cbff) , ![AWS](https://img.shields.io/badge/AWS-131313?style=flat-square&logo=amazonwebservices&logoColor=ffb77d) , ![SvelteKit](https://img.shields.io/badge/SvelteKit-131313?style=flat-square&logo=svelte&logoColor=ff5f57) , ![Vitest](https://img.shields.io/badge/Vitest-131313?style=flat-square&logo=vitest&logoColor=61dac1) , ![Storybook](https://img.shields.io/badge/Storybook-131313?style=flat-square&logo=storybook&logoColor=ffb77d) \],  
+`│  └─` `"philosophy":` \[ `"composition over inheritance"`, `"explicit over clever"`, `"deletes are progress"` \]  
+
+`├─ .config` `// daily drivers`  
+`│  └─` ![Arch Linux](https://img.shields.io/badge/Arch_Linux-131313?style=flat-square&logo=archlinux&logoColor=98cbff) ![Neovim](https://img.shields.io/badge/Neovim-131313?style=flat-square&logo=neovim&logoColor=61dac1) ![zsh](https://img.shields.io/badge/zsh-131313?style=flat-square&logo=gnubash&logoColor=ffb77d) ![Vim](https://img.shields.io/badge/modal_editing-131313?style=flat-square&logo=vim&logoColor=e5e2e1) ![Docker](https://img.shields.io/badge/Docker-131313?style=flat-square&logo=docker&logoColor=98cbff) ![Git](https://img.shields.io/badge/Git-131313?style=flat-square&logo=git&logoColor=ff5f57)  
+
+`├─ external_endpoints/`  
+`│  ├─` [`github`](https://github.com/if1eight0sty) `→` `(Open Source Repositories & Core Contributions)`  
+`│  ├─` [`linkedin`](https://www.linkedin.com/in/if1eight0sty) `→` `(Professional Network & Verified Endorsements)`  
+`│  └─` [`x`](https://x.com/if1eight0sty) `→` `(Build Logs, Notes & Technical Threads)`  
+
+`└─ git log --graph` `// contributions`  
+`   └─`
+
+<div align="center">
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/ae47483f00338416646bd2ecaa4753c5d3a6fa37/github-contribution-grid-snake.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/ae47483f00338416646bd2ecaa4753c5d3a6fa37/github-contribution-grid-snake-dark.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/ae47483f00338416646bd2ecaa4753c5d3a6fa37/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/output/github-contribution-grid-snake-dark.svg" />
 </picture>
--->
-<!--
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://www.electronjs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://www.framer.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://ionicframework.com" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg" alt="ionic" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://svelte.dev" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="svelte" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
- -->
-<!--
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=if1eight0sty&" alt="if1eight0sty" /></p>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=if1eight0sty&show_icons=true&locale=en" alt="if1eight0sty" /></p>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=if1eight0sty&show_icons=true&locale=en&layout=compact" alt="if1eight0sty" /></p>
- -->
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=if1eight0sty&bg_color=131313&color=e5e2e1&line=98cbff&point=61dac1&area=true&hide_border=true" alt="activity graph" />
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=if1eight0sty&show_icons=true&hide_border=true&bg_color=131313&title_color=98cbff&icon_color=61dac1&text_color=e5e2e1&include_all_commits=true&count_private=true" alt="GitHub stats" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=if1eight0sty&layout=compact&hide_border=true&bg_color=131313&title_color=98cbff&text_color=e5e2e1&langs_count=8" alt="Top languages" />
+
+<img src="https://streak-stats.demolab.com?user=if1eight0sty&hide_border=true&background=131313&ring=98cbff&fire=ffb77d&currStreakLabel=61dac1&sideLabels=bec7d4&dates=88919d&currStreakNum=e5e2e1&sideNums=e5e2e1" alt="GitHub streak" />
+
+</div>
+
+`4 directories, 10 anchor nodes, 0 dead references` · `200 OK HTTP/3` · `✓ build: passed`
+
+<div align="center">
+
+<sub>Every anchor above maps 1:1 to <a href="https://roshanaryanmajhi.com.np">roshanaryanmajhi.com.np</a> · Design systems where each service is replaceable, observable and boringly predictable.</sub>
+
+<img src="https://komarev.com/ghpvc/?username=if1eight0sty&label=VISITORS&color=131313&labelColor=98cbff&style=flat-square" alt="Profile views" />
+
+</div>
