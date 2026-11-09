@@ -1,3 +1,9 @@
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1200&center=true&vCenter=true&width=720&height=90&color=98CBFF&background=131313&lines=Roshan+Aryan+Majhi;Software+Engineer+%40+Pexus+Tech;React+%C2%B7+TanStack+%C2%B7+Nuxt+%C2%B7+Laravel;Kathmandu%2C+Nepal+%E2%80%94+UTC%2B5%3A45" alt="Roshan Aryan Majhi" />
+
+</div>
+
 <!-- terminal-gif:start -->
 <div align="center">
 
@@ -7,31 +13,30 @@
   <img alt="roshan@if1eight0sty terminal" src="./output.gif" />
 </picture>
 
-<sub><i>Generated with <a href="https://github.com/x0rzavi/github-readme-terminal">x0rzavi/github-readme-terminal</a> on 2026-11-09 23:25 +0545</i></sub>
+<sub><i>Generated with <a href="https://github.com/x0rzavi/github-readme-terminal">x0rzavi/github-readme-terminal</a> on 2026-11-09 23:34 +0545</i></sub>
 
 </div>
 <!-- terminal-gif:end -->
 
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1200&center=true&vCenter=true&width=720&height=90&color=98CBFF&background=131313&lines=Roshan+Aryan+Majhi;Software+Engineer+%40+Pexus+Tech;React+%C2%B7+TanStack+%C2%B7+Nuxt+%C2%B7+Laravel;Kathmandu%2C+Nepal+%E2%80%94+UTC%2B5%3A45" alt="Roshan Aryan Majhi" />
-
-</div>
-
+<!-- neofetch-art:start -->
 ```console
 roshan@if1eight0sty ~ $ neofetch
 
-       .__    :    __.       roshan@if1eight0sty
-      /   \   :   /   \      --------------------------
-     .____ \ _v_ / ____.     OS:       if1eight0sty 24.04 LTS
-    /     \ /^^^\ /     \    Role:     Software Engineer @ Pexus Tech
-    \      \\^^^//      /    Org:      ING Consulting (Innovate Nepal Group)
-      .-----X{"}X-----.      Editor:   IFIEIGHT0STY_IDE
-     /     /(o o)\     \     Stack:    React · TS · Node · PG
-    /     /  (")  \     \    Location: Kathmandu, Nepal (UTC+5:45)
-    \     \       /     /    Also:     External Project Supervisor
-           \     /           Status:   open to software engineer roles
-            ---
+           .-=++-:.
+         :-=+++++==-.         roshan@if1eight0sty
+        .=---::::---=         --------------------------
+        .=::      -:=         OS:       if1eight0sty 24.04 LTS
+        .=: :.  .: :=         Role:     Software Engineer @ Pexus Tech
+        :-.. .--. ..=.        Org:      ING Consulting (Innovate Nepal Group)
+      .-+=:=-=++=-=:==-.      Editor:   IFIEIGHT0STY_IDE
+    .=**+-===-==-===-+**-     Stack:    React · TS · Node · PG
+   :==+===-:.:==:.--===+==.   Location: Kathmandu, Nepal (UTC+5:45)
+   .----:==--....--==:----.   Also:     External Project Supervisor
+     .--::---=:-=-:-.:-:      Status:   open to software engineer roles
+       .--+:.-++-.-=:-.
+         ==-:.== -:+-
+            :-::-:
+             :==.
 
 roshan@if1eight0sty ~ $ whoami
 Roshan Aryan Majhi — also known online as Roshan Majhi / if1eight0sty.
@@ -41,6 +46,7 @@ Nuxt and Laravel, with an allergy to demoware.
 roshan@if1eight0sty ~ $ uptime
 99.98% — small commits, real users, fast feedback.
 ```
+<!-- neofetch-art:end -->
 
 ```console
 roshan@if1eight0sty ~ $ tree --sitemap -L 2 --web-links ./roshan-portfolio
