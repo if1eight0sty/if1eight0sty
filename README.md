@@ -1,3 +1,17 @@
+<!-- terminal-gif:start -->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./output.gif" />
+  <source media="(prefers-color-scheme: light)" srcset="./output.gif" />
+  <img alt="roshan@if1eight0sty terminal" src="./output.gif" />
+</picture>
+
+<sub><i>Generated with <a href="https://github.com/x0rzavi/github-readme-terminal">x0rzavi/github-readme-terminal</a> on 2026-11-09 23:25 +0545</i></sub>
+
+</div>
+<!-- terminal-gif:end -->
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1200&center=true&vCenter=true&width=720&height=90&color=98CBFF&background=131313&lines=Roshan+Aryan+Majhi;Software+Engineer+%40+Pexus+Tech;React+%C2%B7+TanStack+%C2%B7+Nuxt+%C2%B7+Laravel;Kathmandu%2C+Nepal+%E2%80%94+UTC%2B5%3A45" alt="Roshan Aryan Majhi" />
