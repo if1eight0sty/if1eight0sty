@@ -20,7 +20,9 @@
   <img alt="GitAscii Profile" src="./profiles/default/dark.svg" width="100%">
 </picture>
 
-<!-- neofetch-art:start -->
+
+<!--
+
 ```console
 roshan@if1eight0sty ~ $ neofetch
 
@@ -48,7 +50,8 @@ Nuxt and Laravel, with an allergy to demoware.
 roshan@if1eight0sty ~ $ uptime
 99.98% - small commits, real users, fast feedback.
 ```
-<!-- neofetch-art:end -->
+
+ 
 
 ```console
 roshan@if1eight0sty ~ $ tree --sitemap -L 2 --web-links ./roshan-portfolio
@@ -62,6 +65,8 @@ roshan@if1eight0sty ~ $ tree --sitemap -L 2 --web-links ./roshan-portfolio
 `│  ├─` [`experience.log`](https://roshanaryanmajhi.com.np/git-history) `→` `(Career Timeline, Engineering Management, Staff Impact)`  
 `│  ├─` [`tech_stack.json`](https://roshanaryanmajhi.com.np/tech-stack) `→` `(Full-Stack, Distributed Protocols, TypeScript)`  
 `│  └─` [`contact.json`](https://roshanaryanmajhi.com.np/contact) `→` `(PGP Key, Encrypted Transmission, Direct Booking)`  
+
+ -->
 
 `├─ core_deployments/`  
 `│  ├─` [`ing_forms`](https://roshanaryanmajhi.com.np/projects/forms-core) `→` `(Admissions form engine · 20+ field types, AI drafting, Keycloak SSO)` `Nuxt 3 · Vue 3 · Laravel 11 · PostgreSQL · Redis`  
