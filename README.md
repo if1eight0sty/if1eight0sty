@@ -68,6 +68,8 @@ roshan@if1eight0sty ~ $ tree --sitemap -L 2 --web-links ./roshan-portfolio
 
  -->
 
+ ---
+
 `├─ core_deployments/`  
 `│  ├─` [`ing_forms`](https://roshanaryanmajhi.com.np/projects/forms-core) `→` `(Admissions form engine · 20+ field types, AI drafting, Keycloak SSO)` `Nuxt 3 · Vue 3 · Laravel 11 · PostgreSQL · Redis`  
 `│  ├─` [`inghire`](https://roshanaryanmajhi.com.np/projects/hire-core) `→` `(AI recruitment · candidate scoring, staged pipelines)` `React · TanStack Query · shadcn/ui`  
@@ -103,7 +105,11 @@ roshan@if1eight0sty ~ $ tree --sitemap -L 2 --web-links ./roshan-portfolio
   <img alt="contribution snake" src="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
+---
+
 <img width="100%" src="https://ghchart.rshah.org/98cbff/if1eight0sty" alt="contribution chart" />
+
+---
 
 <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=if1eight0sty&theme=github_dark" alt="GitHub stats" />
 
