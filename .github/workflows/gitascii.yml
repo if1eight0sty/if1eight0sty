@@ -2,11 +2,14 @@ name: Update GitAscii
 
 on:
   workflow_dispatch:
+  # gitascii.json lives on the gitascii branch, so listen there too.
   push:
-    branches: [main]
+    branches: [main, gitascii]
     paths:
       - gitascii.json
       - .github/workflows/gitascii.yml
+  schedule:
+    - cron: "0 4 * * *"
 
 permissions:
   contents: write
