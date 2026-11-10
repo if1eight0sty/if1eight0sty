@@ -14,6 +14,12 @@
 
 </div>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/gitascii/profiles/default/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/gitascii/profiles/default/light.svg">
+  <img alt="GitAscii Profile" src="https://raw.githubusercontent.com/if1eight0sty/if1eight0sty/gitascii/profiles/default/dark.svg" width="100%">
+</picture>
+
 <!-- neofetch-art:start -->
 ```console
 roshan@if1eight0sty ~ $ neofetch
